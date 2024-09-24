@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Rills</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbars border" id="navbar">
+      <div class="d-flex justify-content-between w-100 align-items-center">
+        <img
+          src="/assets/Logo.png"
+          alt="LOGO"
+          style="width: 100px; height: 50px"
+        />
+
+        <div class="navigation">
+          <a
+            class="d-flex justify-content-center align-items-center"
+            style="
+              margin: none;
+              background: #253ea7;
+              border-radius: 16px;
+              color: white !important;
+            "
+          >
+            <h1 class="" style="font-size: 16px; font-weight: 400">Home</h1>
+          </a>
+          <a
+            class="d-flex justify-content-center align-items-center"
+            style="margin: none"
+          >
+            <h1 class="" style="font-size: 16px; font-weight: 400">About Us</h1>
+          </a>
+          <a
+            class="d-flex justify-content-center align-items-center"
+            style="margin: none"
+          >
+            <h1 class="" style="font-size: 16px; font-weight: 400">Project</h1>
+          </a>
+          <a
+            class="d-flex justify-content-center align-items-center"
+            style="margin: none"
+          >
+            <h1 class="" style="font-size: 16px; font-weight: 400">Services</h1>
+          </a>
+          <a
+            class="d-flex justify-content-center align-items-center"
+            style="margin: none"
+          >
+            <h1 class="" style="font-size: 16px; font-weight: 400">
+              Let`s Talk
+            </h1>
+          </a>
+        </div>
+        <label class="burger" for="burger" id="open" onclick="hiddenNav()">
+          <input type="checkbox" id="burger" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+      <div
+        style="height: 2%0px; width: 100%; margin-top: 20px; display: none"
+        id="navigation-mobile"
+      >
+        <div class="">
+          <a
+            class="d-flex justify-content-center align-items-center"
+            style="
+              margin: none;
+              background: #253ea7;
+              border-radius: 16px;
+              color: white !important;
+            "
+          >
+            <h1 class="" style="font-size: 16px; font-weight: 400">Home</h1>
+          </a>
+          <a
+            class="d-flex justify-content-center align-items-center"
+            style="margin: none"
+          >
+            <h1 class="" style="font-size: 16px; font-weight: 400">About Us</h1>
+          </a>
+          <a
+            class="d-flex justify-content-center align-items-center"
+            style="margin: none"
+          >
+            <h1 class="" style="font-size: 16px; font-weight: 400">Project</h1>
+          </a>
+          <a
+            class="d-flex justify-content-center align-items-center"
+            style="margin: none"
+          >
+            <h1 class="" style="font-size: 16px; font-weight: 400">Services</h1>
+          </a>
+          <a
+            class="d-flex justify-content-center align-items-center"
+            style="margin: none"
+          >
+            <h1 class="" style="font-size: 16px; font-weight: 400">
+              Let`s Talk
+            </h1>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR -->
+
+    <!-- HERO SECTION -->
+    <header
+      class="d-flex flex-column section position-relative overflow-hidden"
+    >
+      <img
+        class="border"
+        src="/assets/noise.png"
+        alt="Noise"
+        style="
+          position: absolute;
+          width: 1816px;
+          height: 1292px;
+          z-index: 1;
+          left: -100px;
+        "
+      />
+      <div class="section-wrap position-relative" style="z-index: 9">
+        <div
+          class="section-item d-flex text-white position-relative align-items-lg-start"
+          style="gap: 15px"
+        >
+          <h1 class="text-size-sticknav">01</h1>
+          <h1 class="text-size-sticknav">Brand Development</h1>
+          <svg
+            width="100%"
+            height="2"
+            viewBox="0 0 211 2"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style="position: absolute; top: 140%"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0 1.99938C26.1179 -0.0428394 157.53 -1.22556 211 2C88.4308 0.50403 29.614 1.78496 0 1.99938Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+
+        <div
+          class="section-item d-flex text-white position-relative align-items-lg-start"
+          style="gap: 15px"
+        >
+          <h1 class="text-size-sticknav">02</h1>
+          <h1 class="text-size-sticknav">Digital Marketing Development</h1>
+        </div>
+
+        <div
+          class="section-item d-flex text-white position-relative align-items-lg-start"
+          style="gap: 15px"
+        >
+          <h1 class="text-size-sticknav">03</h1>
+          <h1 class="text-size-sticknav">
+            Communication and Marketing Strategy
+          </h1>
+        </div>
+
+        <div
+          class="section-item d-flex text-white position-relative align-items-lg-start"
+          style="gap: 15px"
+        >
+          <h1 class="text-size-sticknav">04</h1>
+          <h1 class="text-size-sticknav">Mice</h1>
+        </div>
+      </div>
+
+      <!-- HEADER -->
+      <div class="pattern-wrap">
+        <img
+          src="/assets/BlueStripes.png"
+          alt="Pattern"
+          class="position-absolute pattern"
+        />
+      </div>
+      <div style="padding: 60px 0px 60px 0px; position: relative; z-index: 9">
+        <img
+          width="100%"
+          src="/assets/Placeholder.png"
+          alt="Placeholder"
+          class="position-relative placeholderImage"
+        />
+      </div>
+      <div class="w-100 d-flex justify-content-end">
+        <div class="card-hero">
+          <div class="w-100 h-100 d-flex flex-column card-hero-wrap">
+            <h1 class="text-white">Make your Brand to top notch!</h1>
+            <p class="text-white">
+              Brand development is a strategic process to create and
+              differentiate a company's image, products and services from its
+              competitors. This process includes activities to align the brand
+              with company goals, communicate the brand to the market, and
+              strengthen the brand.
+            </p>
+            <button
+              class="d-flex"
+              style="
+                width: fit-content;
+                border: none;
+                gap: 8px;
+                padding: 12px 16px 12px 16px;
+              "
+            >
+              Let`s Talk
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.004 9.414L7.39703 18.021L5.98303 16.607L14.59 8H7.00303V6H18.003V17H16.003L16.004 9.414Z"
+                  fill="#0A0D14"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HERO SECTION -->
+
+    <!-- HOW WE DID -->
+    <section class="d-flex flex-column section-how overflow-hidden section-item">
+      <img src="/assets//Paper.png" alt="Paper" class="paper" />
+      <h1 class="section-text">How we did?</h1>
+
+      <div class="flex-box">
+        <div
+          class=""
+          style="
+            border: 1px solid;
+            border-color: #0a0d14;
+            padding: 24px;
+            gap: 24px;
+            width: 310px;
+            height: 340px;
+            display: flex;
+            flex-direction: column;
+          "
+        >
+          <div class="d-flex align-items-center" style="gap: 16px">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="background-color: #c10f1f; width: 48px; height: 64px"
+            >
+              <h1 style="font-size: 24px; color: white">01</h1>
+            </div>
+            <h1 style="font-size: 24px; font-weight: 500">Brand Strategy</h1>
+          </div>
+          <div>
+            <p style="font-size: 18px; font-weight: 300">
+              Let our expertise in brand strategy be the brush that brings your
+              vision to life. Together, let's sculpt a narrative that resonates,
+              captivates, and leaves an indelible mark on the world.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class=""
+          style="
+            border: 1px solid;
+            border-color: #0a0d14;
+            padding: 24px;
+            gap: 24px;
+            height: 340px;
+            width: 310px;
+            display: flex;
+            flex-direction: column;
+          "
+        >
+          <div class="d-flex align-items-center" style="gap: 16px">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="background-color: #c10f1f; width: 48px; height: 64px"
+            >
+              <h1 style="font-size: 24px; color: white">02</h1>
+            </div>
+            <h1 style="font-size: 24px; font-weight: 500">Brand Identity</h1>
+          </div>
+          <div>
+            <p style="font-size: 18px; font-weight: 300">
+              Let us help you carve out a distinct identity that speaks volumes
+              and leaves a lasting mark in the hearts and minds of your
+              customers.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class=""
+          style="
+            border: 1px solid;
+            border-color: #0a0d14;
+            padding: 24px;
+            gap: 24px;
+            height: 340px;
+            width: 310px;
+            display: flex;
+            flex-direction: column;
+          "
+        >
+          <div class="d-flex align-items-center" style="gap: 16px">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="background-color: #c10f1f; width: 48px; height: 64px"
+            >
+              <h1 style="font-size: 24px; color: white">03</h1>
+            </div>
+            <h1 style="font-size: 24px; font-weight: 500">Brand Collaterals</h1>
+          </div>
+          <div>
+            <p style="font-size: 18px; font-weight: 300">
+              Let us craft collateral that not only showcases your brand in its
+              best light but also reinforces its identity and message at every
+              interaction
+            </p>
+          </div>
+        </div>
+
+        <div
+          class=""
+          style="
+            border: 1px solid;
+            border-color: #0a0d14;
+            padding: 24px;
+            gap: 24px;
+            height: 340px;
+            width: 310px;
+            display: flex;
+            flex-direction: column;
+          "
+        >
+          <div class="d-flex align-items-center" style="gap: 16px">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="background-color: #c10f1f; width: 48px; height: 64px"
+            >
+              <h1 style="font-size: 24px; color: white">04</h1>
+            </div>
+            <h1 style="font-size: 24px; font-weight: 500">Brand Guideline</h1>
+          </div>
+          <div>
+            <p style="font-size: 18px; font-weight: 300">
+              Let us create guidelines that not only safeguard your brand's
+              integrity but also empower it to shine brightly in the
+              marketplace.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class=""
+          style="
+            border: 1px solid;
+            border-color: #0a0d14;
+            padding: 24px;
+            gap: 24px;
+            height: 340px;
+            width: 310px;
+            display: flex;
+            flex-direction: column;
+          "
+        >
+          <div class="d-flex align-items-center" style="gap: 16px">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="background-color: #c10f1f; width: 48px; height: 64px"
+            >
+              <h1 style="font-size: 24px; color: white">05</h1>
+            </div>
+            <h1 style="font-size: 24px; font-weight: 500">Brand Naming</h1>
+          </div>
+          <div>
+            <p style="font-size: 18px; font-weight: 300">
+              we specialize in creating compelling and unique brand names that
+              resonate with your target audience and leave a lasting impression.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class=""
+          style="
+            border: 1px solid;
+            border-color: #0a0d14;
+            padding: 24px;
+            gap: 24px;
+            height: 340px;
+            width: 310px;
+            display: flex;
+            flex-direction: column;
+          "
+        >
+          <div class="d-flex align-items-center" style="gap: 16px">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="background-color: #c10f1f; width: 48px; height: 64px"
+            >
+              <h1 style="font-size: 24px; color: white">06</h1>
+            </div>
+            <h1 style="font-size: 24px; font-weight: 500">Print & Packaging</h1>
+          </div>
+          <div>
+            <p style="font-size: 18px; font-weight: 300">
+              we specialize in creating high-quality, innovative print and
+              packaging solutions that not only protect your products but also
+              elevate your brand.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HOW WE DID -->
+
+    <!-- CTA -->
+    <section
+      class="d-flex flex-column justify-content-center align-items-center overflow-hidden section-item"
+      style="
+        width: 100%;
+        height: 520px;
+        overflow: hidden;
+        padding: 112px 64px 112px 64px;
+        gap: 44px;
+        position: relative;
+        color: white;
+      "
+    >
+      <img
+        src="/assets/bgCTA.png"
+        alt="background"
+        style="position: absolute; z-index: -1"
+      />
+      <div
+        class="d-flex flex-column justify-content-center align-items-center cta"
+      >
+        <h1>We help you stay ahead.</h1>
+        <h1>Offering you new perspectives from strategy</h1>
+        <h1>to digital design and development.</h1>
+      </div>
+      <button
+        class="d-flex"
+        style="
+          width: fit-content;
+          border: none;
+          gap: 8px;
+          padding: 12px 16px 12px 16px;
+        "
+      >
+        Let`s Talk
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.004 9.414L7.39703 18.021L5.98303 16.607L14.59 8H7.00303V6H18.003V17H16.003L16.004 9.414Z"
+            fill="#0A0D14"
+          />
+        </svg>
+      </button>
+    </section>
+    <!-- CTA -->
+
+    <!-- FOOTER -->
+    <footer
+      class="d-flex flex-column section-item"
+      style="width: 100%; height: auto; background-color: #e2e4e9"
+    >
+      <marquee
+        behavior="alternate"
+        direction="right"
+        class="d-flex flex-nowrap gap-2"
+      >
+        <h1 style="font-size: 128px; color: #cdd0d5">
+          LETS MAKE IT REAL
+          <span style="color: #868c98"> LETS MAKE IT REAL </span>
+        </h1>
+      </marquee>
+
+      <div class="footers">
+        <div class="footers-wrap">
+          <img
+            src="/assets/Logo.png"
+            alt="LOGO"
+            style="width: 100px; height: 50px"
+          />
+          <div class="navigation-footer">
+            <a href="/" style="border-bottom: 1px solid">Home</a>
+            <a href="/" style="border-bottom: 1px solid">About Us</a>
+            <a href="/" style="border-bottom: 1px solid">Services</a>
+            <a href="/" style="border-bottom: 1px solid">Project</a>
+            <a href="/" style="border-bottom: 1px solid">Let`s Talk</a>
+          </div>
+        </div>
+
+        <div class="footer-content">
+          <div class="d-flex flex-column footer-content-wrap">
+            <h1 style="font-size: 20px; font-weight: 800px">
+              PT. RAPAL REJEKI KASIL SUMILIR
+            </h1>
+
+            <div class="d-flex flex-column">
+              <h1 style="font-size: 16px; font-weight: 400px">HO Jogja :</h1>
+              <h1 style="font-size: 16px; font-weight: 200px !important">
+                Jl. Kranji No.77, Randuguang, Sariharjo, Kec. Ngaglik, Kabupaten
+                Sleman, Daerah Istimewa Yogyakarta 55581
+              </h1>
+            </div>
+
+            <div class="d-flex flex-column">
+              <h1 style="font-size: 16px; font-weight: 400px">RO Jakarta :</h1>
+              <h1 style="font-size: 16px; font-weight: 200px !important">
+                Jl. Mampang Prpt. Raya No.73A, RT.10/RW.2, Tegal Parang, Mampang
+                Prapatan, South Jakarta City, Jakarta 12790
+              </h1>
+            </div>
+            <div class="d-flex" style="gap: 12px">
+              <a href="https://www.instagram.com/riils.id/" target="_blank">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M16 3H8C5.23858 3 3 5.23858 3 8V16C3 18.7614 5.23858 21 8 21H16C18.7614 21 21 18.7614 21 16V8C21 5.23858 18.7614 3 16 3ZM19.25 16C19.2445 17.7926 17.7926 19.2445 16 19.25H8C6.20735 19.2445 4.75549 17.7926 4.75 16V8C4.75549 6.20735 6.20735 4.75549 8 4.75H16C17.7926 4.75549 19.2445 6.20735 19.25 8V16ZM16.75 8.25C17.3023 8.25 17.75 7.80228 17.75 7.25C17.75 6.69772 17.3023 6.25 16.75 6.25C16.1977 6.25 15.75 6.69772 15.75 7.25C15.75 7.80228 16.1977 8.25 16.75 8.25ZM12 7.5C9.51472 7.5 7.5 9.51472 7.5 12C7.5 14.4853 9.51472 16.5 12 16.5C14.4853 16.5 16.5 14.4853 16.5 12C16.5027 10.8057 16.0294 9.65957 15.1849 8.81508C14.3404 7.97059 13.1943 7.49734 12 7.5ZM9.25 12C9.25 13.5188 10.4812 14.75 12 14.75C13.5188 14.75 14.75 13.5188 14.75 12C14.75 10.4812 13.5188 9.25 12 9.25C10.4812 9.25 9.25 10.4812 9.25 12Z"
+                    fill="#0A0D14"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/riils-id/"
+                target="_blank"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19 3C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19ZM18.5 18.5V13.2C18.5 12.3354 18.1565 11.5062 17.5452 10.8948C16.9338 10.2835 16.1046 9.94 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17C14.6813 12.17 15.0374 12.3175 15.2999 12.5801C15.5625 12.8426 15.71 13.1987 15.71 13.57V18.5H18.5ZM6.88 8.56C7.32556 8.56 7.75288 8.383 8.06794 8.06794C8.383 7.75288 8.56 7.32556 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19C6.43178 5.19 6.00193 5.36805 5.68499 5.68499C5.36805 6.00193 5.19 6.43178 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56ZM8.27 18.5V10.13H5.5V18.5H8.27Z"
+                    fill="#0A0D14"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://docs.google.com/presentation/d/1JK0lhlKzwiXHNO5ojDeJmpBYZXUGtMp3/edit#slide=id.p1"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 16L7 11L8.4 9.55L11 12.15V4H13V12.15L15.6 9.55L17 11L12 16ZM6 20C5.45 20 4.97933 19.8043 4.588 19.413C4.19667 19.0217 4.00067 18.5507 4 18V15H6V18H18V15H20V18C20 18.55 19.8043 19.021 19.413 19.413C19.0217 19.805 18.5507 20.0007 18 20H6Z"
+                    fill="#0A0D14"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div>
+            <img
+              src="/assets/map.png"
+              alt="map"
+              style="width: 100%; height: 100%"
+            />
+          </div>
+        </div>
+        <div style="border-bottom: 1px solid; border-color: #0a0d14"></div>
+        <div class="w-100 d-flex justify-content-center">
+          Copyright © 2024 | Rills Pict&Co. All right reserved.
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER -->
+    <script src="/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
